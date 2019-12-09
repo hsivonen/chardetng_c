@@ -18,6 +18,10 @@ online.
 
 ## Release Notes
 
+### 0.1.1
+
+* Add newline to the end of the C header.
+
 ### 0.1.0
 
 * Initial release.
