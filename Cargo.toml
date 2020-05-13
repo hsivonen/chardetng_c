@@ -1,10 +1,10 @@
 [package]
 name = "chardetng_c"
 description = "C bindings for chardetng"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Henri Sivonen <hsivonen@hsivonen.fi>"]
 edition = "2018"
-license = "MIT/Apache-2.0"
+license = "Apache-2.0 OR MIT"
 readme = "README.md"
 documentation = "https://docs.rs/chardetng_c/"
 homepage = "https://docs.rs/chardetng_c/"
