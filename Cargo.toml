@@ -8,7 +8,7 @@ license = "Apache-2.0 OR MIT"
 readme = "README.md"
 documentation = "https://docs.rs/chardetng_c/"
 homepage = "https://docs.rs/chardetng_c/"
-repository = "https://github.com/hsivonen/chardetng-c"
+repository = "https://github.com/hsivonen/chardetng_c"
 keywords = ["encoding", "web", "unicode", "charset"]
 categories = ["text-processing", "encoding", "web-programming", "internationalization"]
 
