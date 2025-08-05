@@ -45,6 +45,16 @@ CHARDETNG_ENCODING_DETECTOR* chardetng_encoding_detector_new();
 /// Deallocates a detector obtained from `chardetng_encodingdetector_new`.
 void chardetng_encoding_detector_free(CHARDETNG_ENCODING_DETECTOR* detector);
 
+/// Queries whether the TLD is considered non-generic and could affect the guess.
+///
+/// # Undefined Behavior
+///
+/// UB ensues if
+///
+/// * `tld` is non-NULL and `tld_len` is non-zero but `tld` and `tld_len`
+///   don't designate a range of memory valid for reading.
+bool chardetng_encoding_detector_tld_may_affect_guess(char const* tld, size_t tld_len);
+
 /// Inform the detector of a chunk of input.
 ///
 /// The byte stream is represented as a sequence of calls to this
